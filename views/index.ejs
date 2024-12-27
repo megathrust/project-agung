@@ -1,0 +1,484 @@
+<!-- Content -->
+<main class="content">
+
+  <!-- Top Page -->
+  <div class="top-page">
+    <!-- Start 
+    <header class="header">
+      
+      <nav class="header-sidebar">
+        <ul>
+          <li>
+            <a href="/"><b>Home</b></a>
+          </li>
+          <li>
+            <a href="/product"><b>Produk</b></a>
+          </li>
+          <li>
+            <a href="/contact"><b>Contact</b></a>
+          </li> 
+        </ul>
+      </nav>
+    </header>-->
+
+    <div class="top-content">
+      
+      <p>
+        <b>Fotocopy Ilham</b> <br>
+        Selamat datang di halaman website kami.<br>
+        Fotocopy Ilham ialah tempat percetakan untuk dokumen, brosur, dan
+        lain-lain. Disini anda juga dapa mencari alat tulis kantor yang anda
+        butuhkan. Kami buka pada pukul 08.00 - 17.00 WIB. Jika anda ingin
+        mencetak dokumen pada pagi hari, anda bisa mengupload dokumen yang ingin
+        anda cetak melalui motede email yang telah kami sediakan maupun melalui
+        WhatsApp. Hubungi kami jika anda memiliki pertanyaan lainnya.
+      </p>
+
+      <div class="button-container">
+        <button id="openPopup" class="wa-button">Upload File</button>
+        <a
+          href="https://wa.me/6285893182485?text=Halo,%20Saya%20ingin%20bertanya"
+        >
+          <button class="wa-button">WhatsApp</button>
+        </a>
+      </div>
+
+      <div class="popup" id="popupForm">
+        <div class="popup-content">
+          <span class="close" id="closePopup">&times;</span>
+          <form
+            action="https://formsubmit.co/ellyglobal29@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <label for="" class="popup-content-title"
+              >Silahkan Upload FIle Anda</label
+            >
+            <input type="text" name="name" required placeholder="Nama" />
+            <input type="email" name="email" required placeholder="Email" />
+            <textarea
+              name="message"
+              required
+              placeholder="Message"
+              rows="4"
+            ></textarea>
+            <label for="fileUpload">Pilih file untuk diunggah:</label>
+            <input
+              type="file"
+              id="fileUpload"
+              name="fileUpload"
+              accept=".jpg, .jpeg, .png, .pdf"
+              required
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <button type="submit" class="button-popup">Kirim</button>
+          </form>
+        </div>
+      
+      </div>
+    </div>
+    <!-- end page -->
+  </div>
+
+  <!-- Center Page-->
+  <div class="center-page">
+
+    <!-- Title -->
+    <h2>
+      Kami juga menyediakan berbagai macam alat tulis kantor serta berbagai
+      kebutuhan yang anda perlukan.
+    </h2>
+
+    <!-- Content -->
+    <section class="content-item">
+      <!-- Dropdown Category-->
+      <div class="menu-bar">
+        <ul>
+          <li>
+            <a href="/product" id="category-btn"
+              >Category <i class="fas fa-caret-down"></i
+            ></a>
+            <div class="dropdown-menu" id="category-dropdown">
+              <ul>
+                <li>
+                  <a href="#buku-tulis" class="category-link">Buku Tulis</a>
+                </li>
+                <li><a href="#kertas" class="category-link">Kertas</a></li>
+                <li><a href="#pulpen" class="category-link">Pulpen</a></li>
+                <li><a href="#pensil" clas s="category-link">Pensil</a></li>
+                <li><a href="#penghapus" class="category-link">Penghapus</a></li>
+                <li>
+                  <a href="#buku-gambar" class="category-link">Buku Gambar</a>
+                </li>
+                <li><a href="#lakban" class="category-link">Lakban</a></li>
+                <li><a href="#marker" class="category-link">Marker</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+  
+      
+  
+    <!-- Buku -->
+    <h3 class="label-category" id="buku-tulis">Buku</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img src="/gambar/buku/big-boss.png" alt="Big Boss" />
+          <p class="label-item"><b>Big Boss</b> <br>Rp 7.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/buku/kiky-38.jpg" alt="Kiky 38" />
+          <p class="label-item"><b>Kiky 38</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img src="/gambar/buku/sidu-38.jpg" alt="Sidu 38" />
+          <p class="label-item"><b>Sidu 38</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 4 -->
+      <article class="item-article">
+          <img src="/gambar/buku/sidu-58.jpg" alt="Sidu 58" />
+          <p class="label-item"><b>Sidu 58</b> <br>Rp 6.000</p>
+      </article>
+    </section>
+  
+    <!-- Kertas  -->
+    <h3 class="label-category" id="kertas">Kertas</h3>
+    <section class="item">
+      <article class="item-article">
+          <img src="/gambar/kertas/kertas-hvs.jpeg" alt="Kertas HVS" />
+          <p class="label-item"><b>Kertas HVS</b> <br>Rp 400</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/kertas/kertas-buffalo.jpg" alt="Kertas Buffalo" />
+          <p class="label-item"><b>Kertas Buffalo</b> <br>Rp 1.000</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img src="/gambar/kertas/kertas-karton.jpg" alt="Kertas Karton" />
+          <p class="label-item"><b>Kertas Karton</b> <br>Rp 3.000</p>
+      </article>
+      <!-- 4 -->
+      <article class="item-article">
+          <img src="/gambar/kertas/kertas-asturo.jpeg" alt="Kertas Asturo" />
+          <p class="label-item"><b>Kertas Asturo</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 5 -->
+      <article class="item-article">
+          <img src="/gambar/kertas/kertas-folio.jpg" alt="Kertas Folio" />
+          <p class="label-item"><b>Kertas Folio</b> <br>Rp 5.000</p>
+      </article>
+    </section>
+  
+    <!-- Pulpen -->
+    <h3 class="label-category" id="pulpen">Pulpen</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img src="/gambar/pulpen/ballpoint.jpeg" alt="Ballpoint" />
+          <p class="label-item"><b>Ballpoint</b> <br>Rp 3.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/pulpen/pulpen-air.jpg" alt="Pulpen Air" />
+          <p class="label-item"><b>Pulpen Air</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img src="/gambar/pulpen/pulpen-gel.webp" alt="Pulpen Gel" />
+          <p class="label-item"><b>Pulpen Gel</b> <br>Rp 3.500</p>
+      </article>
+      <!-- 4 -->
+      <article class="item-article">
+          <img src="/gambar/pulpen/pulpen-klik.jpg" alt="Pulpen Klik" />
+          <p class="label-item"><b>Pulpen Klik</b> <br>Rp 2.500</p>
+      </article>
+      <!-- 5 -->
+      <article class="item-article">
+          <img src="/gambar/pulpen/pulpen-minyak.jpeg" alt="Pulpen Minyak" />
+          <p class="label-item"><b>Pulpen Minyak</b> <br>Rp 3.000</p>
+      </article>
+    </section>
+  
+    <!-- Pensil -->
+    <h3 class="label-category" id="pensil">Pensil</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img src="/gambar/pensil/pensil-2b.jpeg" alt="Pensil 2B" />
+          <p class="label-item"><b>Pensil 2B</b> <br>Rp 2.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/pensil/pensil-3b.jpeg" alt="Pensil 3B" />
+          <p class="label-item"><b>Pensil 3B</b> <br>Rp 4.000</p>
+      </article>
+    </section>
+  
+    <!-- Penghapus -->
+    <h3 class="label-category" id="penghapus">Penghapus</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img
+            src="/gambar/penghapus/penghapus-faber-castel.jpeg"
+            alt="Pensil 2B"
+          />
+          <p class="label-item"><b>Penghapus Faber Castell</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img
+            src="/gambar/penghapus/penghapus-joyko.webp"
+            alt="Penghapus Joyko"
+          />
+          <p class="label-item"><b>Penghapus Joyko</b> <br>Rp 2.500</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img
+            src="/gambar/penghapus/penghapus-kenko.jpeg"
+            alt="Penghapus Kenko"
+          />
+          <p class="label-item"><b>Penghapus Kenko</b> <br>Rp 2.000</p>
+      </article>
+    </section>
+  
+    <!-- Buku Gambar -->
+    <h3 class="label-category" id="buku-gambar">Buku Gambar</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img
+            src="/gambar/buku gambar/buku-gambar-a2.jpg"
+            alt="Buku Gambar A2"
+          />
+          <p class="label-item"><b>Buku Gambar A2</b> <br>Rp 4.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img
+            src="/gambar/buku gambar/buku-gambar-a3.jpg"
+            alt="Buku Gambar A3"
+          />
+          <p class="label-item"><b>Buku Gambar A3</b> <br>Rp 7.000</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img
+            src="/gambar/buku gambar/buku-gambar-f4.jpg"
+            alt="Buku Gambar A4"
+          />
+          <p class="label-item"><b>Buku Gambar A3</b> <br>Rp 10.000</p>
+      </article>
+    </section>
+  
+    <!-- Lakban -->
+    <h3 class="label-category" id="lakban">Lakban</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img src="/gambar/lakban/stationery-tape.jpg" alt="Stationery Tape" />
+          <p class="label-item"><b>Stationery Tape</b> <br>Rp 2.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/lakban/double-tape.jpg" alt="Double Tape" />
+          <p class="label-item"><b>Double Tape</b> <br>Rp 6.000</p>
+      </article>
+    </section>
+  
+    <!-- Marker -->
+    <h3 class="label-category" id="marker">Marker</h3>
+    <section class="item">
+      <!-- 1 -->
+      <article class="item-article">
+          <img
+            src="/gambar/marker/marker-whiteboard.jpg"
+            alt="Marker Whiteboard"
+          />
+          <p class="label-item"><b>Marker Whiteboard</b> <br>Rp 8.000</p>
+      </article>
+      <!-- 2 -->
+      <article class="item-article">
+          <img src="/gambar/marker/marker-permanen.jpg" alt="Marker Permanen" />
+          <p class="label-item"><b>Marker Permanen</b> <br>Rp 10.000</p>
+      </article>
+      <!-- 3 -->
+      <article class="item-article">
+          <img src="/gambar/marker/marker-mewarnai.webp" alt="Marker Mewarnai" />
+          <p class="label-item"><b>Marker Mewarnai</b> <br>Rp 7.000</p>
+      </article>
+    </section>
+
+  </div>
+  <!-- end page -->
+
+  <!-- Center Page Contact -->
+  <div class="center-page-contact" style="background: rgb(255,132,0); background: linear-gradient(90deg, rgba(255,132,0,1) 0%, rgba(228,255,0,1) 100%); padding: 20px;">
+
+    <!-- Title-->
+    <h2>Hubungi Kami</h2>
+
+    <!-- Map dan Kontak -->
+    <div class="contact-form">
+      <div class="form-container">
+        <form 
+        action="https://formsubmit.co/ellyglobal29@gmail.com"
+        method="POST"
+        enctype="multipart/form-data">
+          <input type="text" name="name" required placeholder="Masukkan nama anda" />
+          <input type="email" name="email" required placeholder="Masukkan alamat email anda" />
+          <textarea
+            name="message"
+            required
+            placeholder="Message"
+            rows="5"
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bar Informasi -->
+    <div class="contact-bootom" style="background: transparent;">
+      <div class="contact-info">
+        <div>
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/marker.png"
+            alt="Location"
+          />
+          <p>
+            <strong>Alamat Toko</strong> <br>
+            J8F2+Q95, Harapan Jaya, Sukarame <br />
+            Bandar Lampung City, Lampung 35131
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/phone.png"
+            alt="Phone"
+          />
+          <p>
+            <strong>Telepon</strong> <br>
+            Raditya Ahmad<br />+62 895-7012-58241
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/whatsapp.png"
+            alt="Fax"
+          />
+          <p>
+            <a href="https://wa.me/6285893182485?text=Halo,%20Saya%20ingin%20bertanya" style="color: white; text-decoration: none;">
+              <strong>Whatsapp</strong> <br>
+              Raditya Ahmad <br> +62 895-7012-58241
+            </a>
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/email.png"
+            alt="Email"
+          />
+          <p>
+            <strong>EMAIL</strong> <br>
+            hello@theme.com
+          </p>
+        </div>
+      </div>
+      <!-- Map -->
+      <div class="contact-info">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2200.7976899517066!2d105.3011968568596!3d-5.375801527192036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40db4ff944868d%3A0x5f00742fa434a52f!2sILHAM%20PHOTOCOPY!5e1!3m2!1sen!2sid!4v1734149179634!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div> 
+    </div>
+    <!-- end page--> 
+  </div>
+
+<!-- end main-->
+</main>
+
+<script>
+  // JavaScript to handle popup display
+  const openPopup = document.getElementById("openPopup");
+  const popupForm = document.getElementById("popupForm");
+  const closePopup = document.getElementById("closePopup");
+
+  openPopup.onclick = function () {
+    popupForm.style.display = "flex";
+  };
+
+  closePopup.onclick = function () {
+    popupForm.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+    if (event.target === popupForm) {
+      popupForm.style.display = "none";
+    }
+  };
+
+  // JavaScript untuk animasi scroll
+  const centerPage = document.querySelector('.center-page');
+  const headings = document.querySelectorAll('h3');
+  const items = document.querySelectorAll('.item');
+  const articles = document.querySelectorAll('.item-article');
+
+  function checkVisibility() {
+    const triggerBottom = window.innerHeight / 5 * 4; // 80% dari viewport
+    const box = centerPage.getBoundingClientRect();
+
+    headings.forEach(heading => {
+      const box = heading.getBoundingClientRect();
+      if (box.top < triggerBottom) {
+        heading.classList.add('visible');
+      } else {
+        heading.classList.remove('visible');
+      }
+    });
+
+    items.forEach(item => {
+      const box = item.getBoundingClientRect();
+      if (box.top < triggerBottom) {
+        item.classList.add('visible');
+      } else {
+        item.classList.remove('visible');
+      }
+    });
+
+    articles.forEach(article => {
+      const box = article.getBoundingClientRect();
+      if (box.top < triggerBottom) {
+        article.classList.add('visible');
+      } else {
+        article.classList.remove('visible');
+      }
+    });
+
+    if (box.top < triggerBottom) {
+      centerPage.classList.add('visible');
+    } else {
+      centerPage.classList.remove('visible');
+    }
+  }
+
+  window.addEventListener('scroll', checkVisibility);
+  checkVisibility(); // Panggil fungsi saat halaman dimuat
+</script>
